@@ -2,7 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-font-family: "Raleway", sans-serif;
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 .visually-hidden {
   position: absolute;
@@ -17,3 +23,39 @@ font-family: "Raleway", sans-serif;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.logo-start {
+  color: var #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/** ========= HEADER ====== */
+
+.header-logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+
+.header-menu {
+}
+.header-menu-item {
+}
+.header-menu-link {
+}
+.header-adress {
+}
+.header-adress-list {
+}
+.header-adress-item {
+}
+.header-adress-link {
+}
+/**=======================*/
