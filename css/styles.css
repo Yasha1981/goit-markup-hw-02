@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -24,7 +24,7 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /** ========= HEADER ====== */
 
@@ -56,7 +56,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.header-adress-link {
+.header-adress {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -83,7 +83,7 @@ a {
   cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -118,7 +118,7 @@ a {
   background: #f4f4fd;
 }
 
-.team-list {
+.team-list-item {
   background-color: #ffffff;
 }
 
