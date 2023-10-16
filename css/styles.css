@@ -42,6 +42,11 @@ a {
   letter-spacing: 0.02em;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-adress {
   font-style: normal;
 }
@@ -54,6 +59,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color: #404bbf;
+}
+
 /** =======================*/
 
 /** ======== SOLUTION ======*/
@@ -79,6 +90,11 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+
+.solution-order-btn:hover,
+.solution-order-btn:focus {
+  background-color: #404bbf;
 }
 
 /**=======================*/
